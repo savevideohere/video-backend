@@ -1,0 +1,13 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "phases": {
+        "setup": {
+          "nixpkgs": ["python3", "ffmpeg"],
+          "commands": ["pip install yt-dlp"]
+        }
+      }
+    }
+  }
+}
